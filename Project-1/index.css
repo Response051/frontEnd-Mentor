@@ -55,6 +55,7 @@ p {
     font-size: 2.5vw;
   }
   body {
-    padding: 150px 0;
+    padding-top: 50%;
+    padding-bottom: 50%;
   }
 }
