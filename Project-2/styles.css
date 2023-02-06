@@ -106,6 +106,9 @@ p {
   margin-top: 0.5em;
   margin-bottom: 2em;
 }
+.main-flex-font > p > span {
+  margin: 0px 10px;
+}
 /* main-flex section begins */
 /* footer begins */
 .footer-flex {
@@ -194,6 +197,9 @@ hr {
   .main-flex-font {
     position: relative;
     left: 15%;
+  }
+  .sub-main {
+    margin-top: -70px;
   }
   .footer-flex {
     align-items: center;
