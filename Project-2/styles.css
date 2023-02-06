@@ -8,6 +8,7 @@ body {
   width: 100%;
   font-size: calc(10px +1vw);
   color: #ffffff;
+  overflow-x: hidden;
 }
 /* header section */
 .header {
@@ -83,10 +84,10 @@ img {
   margin: 2rem 0px;
 }
 .main-flex-font,
-  h4,
-  p {
-    margin: 10px 0px;
-  }
+h4,
+p {
+  margin: 10px 0px;
+}
 /* sub main section ends */
 
 /* main-flex section begins */
@@ -140,6 +141,11 @@ hr {
 /* footer ends */
 
 @media screen and (max-width: 600px) {
+  html {
+    overflow-x: hidden;
+    position: relative;
+    right: 5%;
+  }
   .header {
     align-items: center;
     flex-direction: column;
@@ -189,5 +195,16 @@ hr {
     position: relative;
     left: 15%;
   }
-  
+  .footer-flex {
+    align-items: center;
+    flex-flow: column wrap;
+  }
+  .info {
+    position: relative;
+    left: 20%;
+  }
+  .contact > p {
+    font-size: calc(45% + 1vw);
+    margin: 0em 10px;
+  }
 }
