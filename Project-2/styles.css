@@ -187,6 +187,8 @@ hr {
   }
   .Paragraph {
     flex-direction: row;
+    position: relative;
+    left: 10px;
   }
   .Paragraph > h4 {
     font-size: 1.2rem;
